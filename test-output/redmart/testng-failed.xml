@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [redmart]">
+  <test name="assignment(failed)" preserve-order="false">
+    <classes>
+      <class name="com.redmart.testdriver.RedMartTestDriver">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="afterTest"/>
+          <include name="feature" invocation-numbers="0 1"/>
+          <include name="tearDownClass"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
